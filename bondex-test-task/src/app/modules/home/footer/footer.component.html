@@ -1,0 +1,23 @@
+<ion-tabs #tabs>
+  <ion-tab-bar slot="bottom">
+    <ion-tab-button (click)="openTab('profile')">
+      <ion-icon src="assets/icon/profile-default-icon.svg"></ion-icon>
+      Profile
+    </ion-tab-button>
+    <ion-tab-button (click)="openTab('jobs')">
+      <ion-icon src="assets/icon/briefcase-02.svg"></ion-icon>
+      Jobs
+    </ion-tab-button>
+    <ion-tab-button (click)="openTab('dashboard')">
+      <ion-icon src="assets/icon/updated-bondex-logo-active-icon.svg" size="32"></ion-icon>
+    </ion-tab-button>
+    <ion-tab-button (click)="openTab('invites')">
+      <ion-icon src="assets/icon/users-plus.svg"></ion-icon>
+      Invite
+    </ion-tab-button>
+    <ion-tab-button (click)="openTab('notifications')">
+      <ion-icon src="assets/icon/bell-02.svg"></ion-icon>
+      Notification
+    </ion-tab-button>
+  </ion-tab-bar>
+</ion-tabs>
