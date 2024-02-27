@@ -1,0 +1,30 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.top-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+
+  background: url("../../../assets/background/bond-points-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bottom-container {
+  background-color: rgba(#757575, 0.1);
+}
+
+.dashboard-container {
+  padding: 10px;
+}
+
+.other-items-container {
+  padding: 10px;
+}
+
+.invite-friends-container {
+  padding: 10px;
+}

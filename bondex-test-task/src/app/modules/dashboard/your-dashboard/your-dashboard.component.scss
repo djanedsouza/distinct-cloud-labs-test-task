@@ -1,0 +1,23 @@
+.dashboard-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.25rem;
+  padding-left: 12px;
+}
+
+.jobs-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card-title {
+  color: #757575;
+}
+
+.card-number {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.875rem;
+  color: #000;
+}

@@ -9,6 +9,6 @@ import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   imports: [CommonModule, FormsModule, IonicModule, HomePageRoutingModule],
-  declarations: [HomePage,FooterComponent],
+  declarations: [HomePage, FooterComponent],
 })
 export class HomePageModule {}

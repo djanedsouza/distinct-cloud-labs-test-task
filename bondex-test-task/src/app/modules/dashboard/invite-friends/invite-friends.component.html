@@ -1,0 +1,22 @@
+<div class="invite-friends-content">
+  <ion-text class="invite-friends-title">Invite your friends</ion-text>
+  <ion-card>
+    <ion-card-content class="build-network-content">
+      <img src="../../assets/images/invite-friends.svg" alt="Invite Friends" />
+      <p class="if-text1">Build your network</p>
+      <p class="if-text2">
+        Each actively boosting connection increases your activity rate by +0.02
+        points per hour.
+      </p>
+      <ion-button class="copy-referral-btn" id="open-toast"
+        ><img src="../../assets/icon/copy-06.svg" alt="Copy" />Copy referral
+        link</ion-button
+      >
+      <ion-toast
+        trigger="open-toast"
+        message="Referral link copied! Check clipboard."
+        [duration]="5000"
+      ></ion-toast>
+    </ion-card-content>
+  </ion-card>
+</div>

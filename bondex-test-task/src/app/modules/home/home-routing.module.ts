@@ -10,7 +10,7 @@ const routes: Routes = [
       {
         path: '',
         redirectTo: 'dashboard',
-        pathMatch: 'full'
+        pathMatch: 'full',
       },
       {
         path: 'profile',
@@ -30,12 +30,16 @@ const routes: Routes = [
       {
         path: 'notifications',
         loadChildren: () =>
-          import('../notifications/notifications.module').then((m) => m.NotificationsModule),
+          import('../notifications/notifications.module').then(
+            (m) => m.NotificationsModule
+          ),
       },
       {
         path: 'dashboard',
         loadChildren: () =>
-        import('../dashboard/dashboard.module').then((m) => m.DashboardPageModule),
+          import('../dashboard/dashboard.module').then(
+            (m) => m.DashboardPageModule
+          ),
       },
     ],
   },
