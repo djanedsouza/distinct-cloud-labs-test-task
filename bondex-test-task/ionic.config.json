@@ -1,0 +1,7 @@
+{
+  "name": "bondex-test-task",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
